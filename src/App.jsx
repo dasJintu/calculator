@@ -40,7 +40,7 @@ function App() {
           type="text"
           value={result}
           readOnly
-          className="border p-4 w-full rounded-md shadow-sm text-3xl bg-screen-bg dark:bg-dark-screen-bg"
+          className="border p-4 w-full rounded-md shadow-sm text-3xl dark:text-white bg-screen-bg dark:bg-dark-screen-bg"
         />
         <div className="mt-4 p-4 rounded-md bg-light-keypad-bg dark:bg-dark-keypad-bg grid grid-cols-4 grid-rows-4 gap-4">
           <button onClick={clickHandler} name="7" className="btn btn-white">
