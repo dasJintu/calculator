@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-2 px-3 rounded-md shadow-sm;
+  }
+  .btn-white {
+    @apply bg-key-white  border-b-4 border-key-white-shadow text-gray-800;
+  }
+}
